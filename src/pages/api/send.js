@@ -206,23 +206,47 @@ export default async function handler(req, res) {
     const today = new Date();
     const todayStr = `${String(today.getDate()).padStart(2, '0')}-${String(today.getMonth() + 1).padStart(2, '0')}`;
 
+    console.log(`Checking birthdays for date: ${todayStr}`);
+    console.log(`Total members in CSV: ${members.length}`);
+
     const birthdayMembers = members.filter(member => {
       if (!member.birthday) return false;
       const [day, month, year] = member.birthday.split('-');
       return `${day}-${month}` === todayStr;
     });
 
+    console.log(`Found ${birthdayMembers.length} birthday(s) today:`, birthdayMembers.map(m => m.name));
+
+    if (birthdayMembers.length === 0) {
+      return res.status(200).json({ 
+        message: 'No birthdays today', 
+        date: todayStr,
+        totalMembers: members.length 
+      });
+    }
+
     for (const member of birthdayMembers) {
-      await sendBirthdayEmail(member);
+      try {
+        await sendBirthdayEmail(member);
+      } catch (emailError) {
+        console.error(`Failed to send email to ${member.name}:`, emailError);
+      }
     }
 
     if (birthdayMembers.length > 0) {
-      await sendAdminAlert(birthdayMembers);
+      try {
+        await sendAdminAlert(birthdayMembers);
+      } catch (adminError) {
+        console.error('Failed to send admin alert:', adminError);
+      }
     }
 
-    res.status(200).json({ message: 'Birthday emails sent successfully' });
+    res.status(200).json({ 
+      message: `Birthday emails sent successfully to ${birthdayMembers.length} person(s)`,
+      sentTo: birthdayMembers.map(m => m.name)
+    });
   } catch (error) {
-    console.log(error);
+    console.error('Error in birthday API:', error);
     res.status(500).json({ error: error.message });
   }
 }
