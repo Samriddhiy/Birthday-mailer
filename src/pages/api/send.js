@@ -190,7 +190,7 @@ const sendAdminAlert = async (members) => {
   const mailOptions = {
     from: 'Team BDCOE <bdcoe@akgec.ac.in>',
     to: 'samriddhi4005@gmail.com',
-      cc: ['samriddhi2310108@akgec.ac.in'], 
+      cc: ['srivastavapranay623@gmail.com' , 'aadhyaguptacol@gmail.com', ], 
       
     subject: 'Birthday Alert',
     text: `Today is the birthday of: ${members.map(m => m.name).join(', ')}`,
