@@ -1,62 +1,69 @@
-name,email,birthday
-Ananya Dixit,ananya.dixit1104@gmail.com,11-04-2002
-Apurva B Raj,apurvabraj@gmail.com,08-01-2002
-Deepak Verma,deepakverma07858@gmail.com,03-02-2002
-Harsh Yadav,hy945196@gmail.com,26-07-2002
-Krish Kumar,krish221200867@gmail.com,23-04-2002
-Kritika Yadav,yadavkritika745@gmail.com,13-04-2002
-Manya Singhal,manyasinghal24@gmail.com,19-10-2002
-Mohit Singh,mohit35753@gmail.com,22-10-2002
-Rohit Yadav,ry945493@gmail.com,02-10-2002
-Trapti Jindal,traptijindal5678@gmail.com,06-01-2002
-Utkash Upadhyay,harshupadhyay7786@gmail.com,29-06-2002
-Anugya Tiwari,anugyatiwari51117@gmail.com,11-12-2002
-Asjad,vedasjad@gmail.com,13-11-2002
-Atishay Jain,atishayjain2003@gmail.com,07-04-2002
-Harsh Sharma,harshpathakagra@gmail.com,03-11-2002
-Ketan Singh,ketan02am@gmail.com,02-02-2002
-Nikhil Sinha,nikhilsinha822@gmail.com,27-11-2002
-Priyanshu Mishra,priyanshumishra923@gmail.com,01-07-2002
-Rishita Srivastava,rixsri.13@gmail.com,13-04-2002
-Shreya Bhatt,shreya28bhatt@gmail.com,28-10-2002
-Tarun Lalwani,tarunlalwani2002@gmail.com,05-11-2002
-Tushar Gupta,guptatush28@gmail.com,05-12-2002
-Abhishek Gupta,senior7019@gmail.com,27-12-2002
-Anshika Agarwal,agarwal.anshika20002@gmail.com,26-07-2002
-Devansh Sahani,sahanidev21@gmail.com,04-01-2002
-Devansh Saxena,devansh2013205@akgec.ac.in,20-07-2002
-Dipendra Raghav,raghavdip19@gmail.com,19-05-2002
-Hardik Agarwal,agarwalhardik562@gmail.com,01-12-2002
-Ishika Rastogi,ishikarastogi57@gmail.com,18-07-2002
-Mayank Johari,mayank2012024@akgec.ac.in,02-12-2002
-Prateek Chaurasia,prateek18801@gmail.com,18-08-2002
-Sankalp Srivastava,sankalpsrivastav55@gmail.com,20-10-2002
-Somya Maheshwari,somyamaheshwari61@gmail.com,29-01-2002
-Samriddhi Yadav,samriddhi4005@gmail.com,04-11-05
-Shashank Singh,singshashank7@gmail.com,27-10-05
-Pranay Srivastava,srivastavapranay623@gmail.com,09-07-04
-Pushpanjali Verma,pushpanjaliv65@gmail.com,13-10-04
-Anshika Sharma,sharma2004anshika@gmail.com,18-06-2005
-Piyush Kumar Singh,piyush02040@gmail.com,02-04-04
-Rishit Singh,rishitinc@gmail.com,14-10-03
-Rishabh Srivastava,rishabhsrivastava918@gmail.com,21-04-04
-Rachit Daksh,rachitdaksh29@gmail.com,08-03-04
-Vansh Atrey,vansh.atrey1703@gmail.com,17-09-04
-Simran Singh,simransingh25060@gmail.com,25-06-05
-Abhishek Rajdhar Dubey,rajdhardubey4434@gmail.com,24-07-04
+name,email,birthday,isAlumni  
+
+
+// 2026 passing out 
+Ananya Dixit,ananya.dixit1104@gmail.com,11-04-2002,no
+Apurva B Raj,apurvabraj@gmail.com,08-01-2002,no
+Deepak Verma,deepakverma07858@gmail.com,03-02-2002,no
+Harsh Yadav,hy945196@gmail.com,26-07-2002,no
+Krish Kumar,krish221200867@gmail.com,23-04-2002,no
+Kritika Yadav,yadavkritika745@gmail.com,13-04-2002,no
+Manya Singhal,manyasinghal24@gmail.com,19-10-2002,no
+Mohit Singh,mohit35753@gmail.com,22-10-2002,no
+Rohit Yadav,ry945493@gmail.com,02-10-2002,no
+Trapti Jindal,traptijindal5678@gmail.com,06-01-2002,no
+Utkash Upadhyay,harshupadhyay7786@gmail.com,29-06-2002,no 
+
+// 2025 Passed out 
+Anugya Tiwari,anugyatiwari51117@gmail.com,11-12-2002,yes
+Asjad,vedasjad@gmail.com,13-11-2002,yes
+Atishay Jain,atishayjain2003@gmail.com,07-04-2002,yes
+Harsh Sharma,harshpathakagra@gmail.com,03-11-2002,yes
+Ketan Singh,ketan02am@gmail.com,02-02-2002,yes
+Nikhil Sinha,nikhilsinha822@gmail.com,27-11-2002,yes
+Priyanshu Mishra,priyanshumishra923@gmail.com,01-07-2002,yes
+Rishita Srivastava,rixsri.13@gmail.com,13-04-2002,yes
+Shreya Bhatt,shreya28bhatt@gmail.com,28-10-2002,yes
+Tarun Lalwani,tarunlalwani2002@gmail.com,05-11-2002,yes
+Tushar Gupta,guptatush28@gmail.com,05-12-2002,yes
+Abhishek Gupta,senior7019@gmail.com,27-12-2002,yes
+Anshika Agarwal,agarwal.anshika20002@gmail.com,26-07-2002,yes
+Devansh Sahani,sahanidev21@gmail.com,04-01-2002,yes
+Devansh Saxena,devansh2013205@akgec.ac.in,20-07-2002,yes
+Dipendra Raghav,raghavdip19@gmail.com,19-05-2002,yes
+Hardik Agarwal,agarwalhardik562@gmail.com,01-12-2002,yes
+Ishika Rastogi,ishikarastogi57@gmail.com,18-07-2002,yes
+Mayank Johari,mayank2012024@akgec.ac.in,02-12-2002,yes
+Prateek Chaurasia,prateek18801@gmail.com,18-08-2002,yes
+Sankalp Srivastava,sankalpsrivastav55@gmail.com,20-10-2002,yes
+Somya Maheshwari,somyamaheshwari61@gmail.com,29-01-2002,yes
+
+// 2027 Passing out 
+Samriddhi Yadav,samriddhi4005@gmail.com,04-11-05,no
+Shashank Singh,singshashank7@gmail.com,27-10-05,no
+Pranay Srivastava,srivastavapranay623@gmail.com,09-07-04,no
+Pushpanjali Verma,pushpanjaliv65@gmail.com,13-10-04,no
+Anshika Sharma,sharma2004anshika@gmail.com,18-06-2005,no
+Piyush Kumar Singh,piyush02040@gmail.com,02-04-04,no
+Rishit Singh,rishitinc@gmail.com,14-10-03,no
+Rishabh Srivastava,rishabhsrivastava918@gmail.com,21-04-04,no
+Rachit Daksh,rachitdaksh29@gmail.com,08-03-04,no
+Vansh Atrey,vansh.atrey1703@gmail.com,17-09-04,no
+Simran Singh,simransingh25060@gmail.com,25-06-05,no
+Abhishek Rajdhar Dubey,rajdhardubey4434@gmail.com,24-07-04,no
 
 
 // 2nd year details 
-Aviral,aviralchauhan500@gmail.com,20-03-05
-Sanyam Agarwal,agarwalsanyam150@gmail.com,19-08-05
-Taran Singh,taransingh761111@gmail.com,01-08-05
-Aadhya Gupta,aadhyaguptacol@gmail.com,05-06-06
-Yashasvi Khatri,yashasvi.khatri05@gmail.com,29-02-04
-Vishakha Ahlawat,vishakhahlawat@gmail.com,12-05-05
-Nilenjay Singh Sengar,nilenjaysinghsengar2006@gmail.com,26-01-07
-Nikhil Gupta,nikhilguptasgrr542006@gmail.com,05-04-06
-Taniska Saxena,taniskasaxena06@gmail.com,03-06-05
-Shafqa Fatma,fatmashafqa4@gmail.com,06-05-06
-Nidhi Singh Chauhan,nidhischauhan912@gmail.com,21-07-06
-Yashika Sahu,yashika2431046@akgec.ac.in,02-09-06
+Aviral,aviralchauhan500@gmail.com,20-03-05,no
+Sanyam Agarwal,agarwalsanyam150@gmail.com,19-08-05,no
+Taran Singh,taransingh761111@gmail.com,01-08-05,no
+Aadhya Gupta,aadhyaguptacol@gmail.com,05-06-06,no
+Yashasvi Khatri,yashasvi.khatri05@gmail.com,29-02-04,no
+Vishakha Ahlawat,vishakhahlawat@gmail.com,12-05-05,no
+Nilenjay Singh Sengar,nilenjaysinghsengar2006@gmail.com,26-01-07,no
+Nikhil Gupta,nikhilguptasgrr542006@gmail.com,05-04-06,no
+Taniska Saxena,taniskasaxena06@gmail.com,03-06-05,no
+Shafqa Fatma,fatmashafqa4@gmail.com,06-05-06,no
+Nidhi Singh Chauhan,nidhischauhan912@gmail.com,21-07-06,no
+Yashika Sahu,yashika2431046@akgec.ac.in,02-09-06,no
 
